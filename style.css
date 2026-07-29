@@ -1,4 +1,15 @@
 .nav-bar{
-    display: flexbox;
+    display: flex;
     flex-direction: row;
+    background-color: grey;
+    justify-content: flex-end;
+    
+}
+
+.nav-bar a:hover{
+    color: white;
+}
+
+.nav-bar-links{
+    padding: 1%;
 }
