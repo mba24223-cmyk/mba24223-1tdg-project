@@ -16,8 +16,7 @@
 }
 
 img{
-    width: 50%;
-    margin: 10%;
+    width: 10%;
 }
 
 .p{
@@ -33,4 +32,14 @@ ul{
 ul li {
     float: left;
   }
-  
+
+.home-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-page{
+    background-image: url('images/play-station-controller.jpg');
+    height: 10%;
+    padding: 15%;
+}
