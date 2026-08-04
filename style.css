@@ -40,6 +40,9 @@ ul li {
 
 .hero-page{
     background-image: url('images/play-station-controller.jpg');
-    height: 10%;
-    padding: 15%;
+    background-repeat: no-repeat;
+    background-size: 2000px, 700px;
+    padding: 10%;
+    text-align: center;
+    color: white;
 }
