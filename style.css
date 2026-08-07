@@ -3,6 +3,7 @@
     flex-direction: row;
     background-color: grey;
     justify-content: space-around;
+    align-items: center;
 }
 
 .nav-bar a:hover{
@@ -12,7 +13,9 @@
 .nav-bar-links{
     display: flex;
     flex-direction: row;
-    padding: 1%;
+    padding: 0%;
+    justify-content: space-around;
+    float: left;
 }
 
 img{
@@ -24,16 +27,6 @@ p{
     margin: 1%;
     width: 40%;
 }
-
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-ul li {
-    float: left;
-  }
 
 .home-content{
     display: flex;
@@ -67,4 +60,10 @@ ul li {
     flex-direction: row;
     justify-content: center;
 
+}
+
+.events-content{
+    border-radius: 2px;
+    border-color: black;
+    margin: 2%;
 }
