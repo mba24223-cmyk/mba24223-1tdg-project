@@ -4,6 +4,7 @@
     background-color: grey;
     justify-content: space-around;
     align-items: center;
+    color: black;
 }
 
 .nav-bar a:hover{
@@ -19,13 +20,7 @@
 }
 
 img{
-    width: 10%;
-}
-
-p{
-    word-wrap: normal;
-    margin: 1%;
-    width: 40%;
+    width: 20%;
 }
 
 .home-content{
@@ -36,7 +31,7 @@ p{
 .hero-page{
     background-image: url('images/play-station-controller.jpg');
     background-repeat: no-repeat;
-    background-size: 2000px, 700px;
+    background-size: 100%, 70%;
     padding: 10%;
     text-align: center;
     color: white;
@@ -59,11 +54,18 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: center;
-
 }
 
 .events-content{
-    border-radius: 2px;
-    border-color: black;
-    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.events-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
 }
