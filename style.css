@@ -1,3 +1,7 @@
+img{
+    width: 30%;
+}
+
 .nav-bar{
     display: flex;
     flex-direction: row;
@@ -19,9 +23,6 @@
     float: left;
 }
 
-img{
-    width: 20%;
-}
 
 .home-content{
     display: flex;
@@ -37,23 +38,28 @@ img{
     color: white;
 }
 
-.how-section{
+.how-content{
     display: flex;
     flex-direction: column;
 }
 
-.how-content{
-    background-color: rgb(216, 216, 216);
+.how-section{
     display: flex;
     flex-direction: row;
-    justify-content:space-around
-
+    
 }
 
 .about-content{
     display: flex;
     flex-direction: row;
     justify-content: center;
+
+}
+
+.about-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .events-content{
