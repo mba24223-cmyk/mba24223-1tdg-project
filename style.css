@@ -1,11 +1,9 @@
-img{
-    width: 30%;
-}
+/* navbar css is below */
 
 .nav-bar{
     display: flex;
     flex-direction: row;
-    background-color: grey;
+    background-color: #6accae;
     justify-content: space-around;
     align-items: center;
     color: black;
@@ -15,15 +13,18 @@ img{
     color: white;
 }
 
-.nav-bar-links{
+.nav-bar-link{
     display: flex;
     flex-direction: row;
     padding: 0%;
     justify-content: space-around;
     float: left;
+    color: black;
+    font-size: medium;
     
 }
 
+/* homepage css is below */
 
 .home-content{
     display: flex;
@@ -39,6 +40,8 @@ img{
     color: white;
 }
 
+/* "how" page css is below */
+
 .how-content{
     display: flex;
     flex-direction: column;
@@ -49,6 +52,8 @@ img{
     flex-direction: row;
     
 }
+
+/* "about" page css is below */
 
 .about-content{
     display: flex;
@@ -63,6 +68,8 @@ img{
     align-items: center;
 }
 
+/* events css is below */
+
 .events-content{
     display: flex;
     flex-direction: row;
@@ -75,4 +82,24 @@ img{
     flex-direction: column;
     align-items: center;
     width: 50%;
+}
+
+/* gerneral css is below */
+
+body{
+    background-color: #f1fff7;
+}
+
+a{
+    color: black;
+    font-size: 150%;
+    text-decoration: none;
+}
+
+text{
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img{
+    width: 30%;
 }
