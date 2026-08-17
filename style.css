@@ -45,12 +45,19 @@
 .how-content{
     display: flex;
     flex-direction: column;
+    size: 120%;
 }
 
 .how-section{
     display: flex;
-    flex-direction: row;
+    justify-content: between;
+
+    padding: 2%;
     
+}
+
+.how-image img{
+    size: 50%;
 }
 
 /* "about" page css is below */
