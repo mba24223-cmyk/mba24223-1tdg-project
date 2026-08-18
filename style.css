@@ -50,14 +50,13 @@
 
 .how-section{
     display: flex;
-    justify-content: between;
-
-    padding: 2%;
+    flex-direction: row;
     
 }
 
 .how-image img{
-    size: 50%;
+    width: 200px;
+    height: 200px;
 }
 
 /* "about" page css is below */
@@ -91,6 +90,11 @@
     width: 50%;
 }
 
+.events-div img{
+    width: 200px;
+    height: 200px;
+}
+
 /* gerneral css is below */
 
 body{
@@ -109,4 +113,8 @@ text{
 
 img{
     width: 30%;
+}
+
+p{
+    font-size: 150%;
 }
