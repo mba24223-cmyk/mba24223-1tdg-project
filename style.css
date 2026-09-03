@@ -55,6 +55,7 @@
     flex-direction: row;
     margin: 50px;
     size: 50%;
+    justify-content: space-around;
     
 }
 
@@ -63,8 +64,8 @@
     height: 200px;
 }
 
-.how-p-div
-    size: 400px;
+.how-p-div{
+    size: 50%;
 }
 
 /* "about" page css is below */
