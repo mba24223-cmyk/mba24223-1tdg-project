@@ -7,6 +7,7 @@
     justify-content: space-around;
     align-items: center;
     color: black;
+    margin: -10px;
 }
 
 .nav-bar a:hover{
@@ -29,6 +30,7 @@
 .home-content{
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .hero-page{
@@ -39,6 +41,15 @@
     text-align: center;
     color: white;
     font-size: 250%;
+    margin: -10px;
+}
+
+.p-attribution{
+    color: rgb(156, 0, 0);
+}
+
+.p-attribution a{
+    color: rgb(0, 17, 255);
 }
 
 /* "how" page css is below */
@@ -46,7 +57,6 @@
 .how-content{
     display: flex;
     flex-direction: column;
-    size: 100%;
 
 }
 
@@ -54,7 +64,6 @@
     display: flex;
     flex-direction: row;
     margin: 50px;
-    size: 50%;
     justify-content: space-around;
     
 }
@@ -65,7 +74,7 @@
 }
 
 .how-p-div{
-    size: 50%;
+    width: 50%;
 }
 
 /* "about" page css is below */
@@ -142,6 +151,11 @@ text{
 
 img{
     width: 30%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    animation-duration: 2s;
 }
 
 p{
@@ -151,4 +165,15 @@ p{
 h2{
     text-align: center;
     font-size: 250%;
+}
+
+h3{
+    text-align: center;
+}
+
+/* attemped css animation */
+
+@keyframes img-animation {
+    0% {border-color: black;}
+    100% {border-color: white;}
 }
